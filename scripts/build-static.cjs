@@ -14,6 +14,6 @@ fs.cpSync('public','dist',{recursive:true,mode:fs.constants.COPYFILE_FICLONE,fil
   const source=fs.statSync(src);if(!source.isFile()||!fs.existsSync(dest))return true;
   const target=fs.statSync(dest);return source.size!==target.size||source.mtimeMs>target.mtimeMs;
 }});
-const html=`<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>C. elegans Atlas</title><link rel="stylesheet" href="./assets/${outputs['.css']}"></head><body><div id="root"></div><script type="module" src="./assets/${outputs['.js']}"></script></body></html>`;
+const html=`<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>C. elegans Atlas</title><link rel="icon" type="image/svg+xml" href="./favicon.svg"><link rel="stylesheet" href="./assets/${outputs['.css']}"></head><body><div id="root"></div><script type="module" src="./assets/${outputs['.js']}"></script></body></html>`;
 const temp=`dist/.index-${process.pid}.html`;fs.writeFileSync(temp,html);fs.renameSync(temp,'dist/index.html');
 console.log('Static atlas built in dist/',outputs);
