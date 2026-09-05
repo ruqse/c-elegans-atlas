@@ -8,7 +8,7 @@ import {DEFAULT_LAYERS,SYSTEMS,matchesPart,partOpacity,sourceLink,type Atlas,typ
 export default function App(){
   const [theme,setTheme]=useState<'light'|'dark'>(()=>{
     try{const saved=localStorage.getItem('worm-atlas-theme');if(saved==='light'||saved==='dark')return saved;}catch{/* Storage may be unavailable in private contexts. */}
-    return window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';
+    return 'light';
   });
   useEffect(()=>{document.documentElement.style.colorScheme=theme;try{localStorage.setItem('worm-atlas-theme',theme);}catch{/* The toggle still works without storage. */}},[theme]);
   const [atlas,setAtlas]=useState<Atlas|null>(null),[error,setError]=useState(''),[ready,setReady]=useState(false);
