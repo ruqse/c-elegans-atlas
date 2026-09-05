@@ -1,0 +1,115 @@
+{
+  "accessors": [
+    {
+      "name": "Fragment15_1_0_indices",
+      "componentType": 5123,
+      "count": 612,
+      "min": [
+        0
+      ],
+      "max": [
+        103
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "name": "Fragment15_1_0_positions",
+      "componentType": 5126,
+      "count": 104,
+      "min": [
+        -59118.773656952246,
+        -41752.113500702246,
+        61765.695093047754
+      ],
+      "max": [
+        -57603.11451018258,
+        -39778.58462078652,
+        64591.523656952246
+      ],
+      "type": "VEC3"
+    }
+  ],
+  "asset": {
+    "generator": "obj2gltf",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "name": "SVV_Fragment15__1_1_0000",
+      "byteLength": 464,
+      "uri": "data:application/octet-stream;base64,RFJBQ08CAgEBAAAAaMwBAMsBBQAz71utKq0qfbSq9FFVqlqqlFa0ylpKS6uqVEtVlarSKtWqKtVHVSktVbSqtKq0qvRRpVoKAQEQAf8AAAEACQMAAAIBAQEADAOxCykGnAvZAZwDkR2JDR16IZOJ/cXY6SyV/eRdIzhg8v0e4jINGxyI/IIPhHS1Xd7FACD3amr3HADbBfjiddmvAcD084IaawDonF+8TjsYsscOAHAXgBrcMyfg9gICwJ0AoRrcRVfKgMPngAuqAQB0Ol6nAAzZZ19NACAJhAEA79oAMHoCwN0AAXAHAKRSAQQuBgC7VwMA6SA1r38eL2TqwH2C1QTAjnTUDgJIIRAA9wKUAmBwMQLoHAAA4A4A1gRg4YAAALgHgDUBiDcA1g6AAHAPAAH4HoAAvQsgAO4HBIC7AasJgBblqF0EgQLgXkAAuCOwmgAAUY7aRSAAuAsANADcCVhNAExIR+0gVFM75nNABQBwB8BqAqBAAKw9ACAA4B6A1QKAHwBrBwABAHcArBYA9QBYewBCAMA9AKsFoDsA1g4ACQBwB8BqAXgOgLUDAADcAQAAAAAA/wcAAGXtZse8FiPHE0dxRyBxMEULAAAAAAA="
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 459
+    }
+  ],
+  "materials": [
+    {
+      "name": "mat_119",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.09803922,
+          0,
+          0.69803923,
+          0.98
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.903921569
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "BLEND",
+      "doubleSided": true
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Fragment15_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Fragment15",
+      "mesh": 0
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ]
+}

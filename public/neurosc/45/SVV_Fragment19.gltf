@@ -1,0 +1,115 @@
+{
+  "accessors": [
+    {
+      "name": "Fragment19_1_0_indices",
+      "componentType": 5123,
+      "count": 3696,
+      "min": [
+        0
+      ],
+      "max": [
+        628
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "name": "Fragment19_1_0_positions",
+      "componentType": 5126,
+      "count": 629,
+      "min": [
+        -46420.64836593949,
+        18273.418040310517,
+        -26262.642506564483
+      ],
+      "max": [
+        -42622.28195224719,
+        21567.714689179287,
+        -21692.558665310517
+      ],
+      "type": "VEC3"
+    }
+  ],
+  "asset": {
+    "generator": "obj2gltf",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "name": "SVV_Fragment19__1_1_0000",
+      "byteLength": 1344,
+      "uri": "data:application/octet-stream;base64,RFJBQ08CAgEBAAAC9QTQCQDPCR4ELg4MGD8dlQIlDQEBECcBAwUDwSWRBg0SpQEJK9WA6ePMBwxNJgEDBQNtCB0KGSphAwnwjGakdB27NpKbAQEDBakB1GjROU0DDrQxQtyPELJooVMvIkO/swMBAwWxDQMk+S81Ajd88XFah9nzSTBr8S2oVcL03OVxcQRuv056V7+pmI23WlhcXcYrlXZBq4ug6e0VnASIstY0CblS2AMBAgSNOAd1ByHJHJCMlmzybU7vADl47LuzquqAxhqSqD4mqYXS8JmFbYdbAQIErTkHVQYINTHYXn7F4YAB/wAAAQAJAwAAAgEBAQEH6w1NHgkEyQSRAYQ0LA8QECwDWFAsJCQ0EAgfCAsIU5SkLFA0EAsIBzxYrFgICGMIOwgvEAOMIQFYaB8QFwg7CIckJA0BaDQk3xwDCP//ewhDCDsIOwhDCDsIOwhDCBtEcGBEA5QDJBAbEAgcEGhQaCw0NAMQD0kBeKQFATEBxQGkPBwQ//////9XCP///z8QAwgTCFcICxD///////9TCP//3wj+BgBUch+Tzi9CAzbUrbzPWQtoENdIQdFgCMO4bfOMlALhJQoNGL7i7vEo8m+H6J6RS4SFxMFHTEsrtztnCNQ99HYs1xj276u9zn0LRx8soKBp7cdpex90x+U8kLdWNk25cSyjiVOAzYsM3tndSs7fziXEv3CwNbCp2lz9vDYCrUWZkQOXrcw0zBra3f/Ha0CfiCVVluuHVOT5HOYOe6zstgARjFC02QbK8FPO5ewuP0rgOpVOkRbq3SIX4F3k30khxKm0mF8CVQTXaDnV2BbJgbKBChnGLISlkjtTs1tSczJjeXWbwY6mCSWPLuK3yN2ZWqEJCcrL9YPs0Cl3Mir91WS9W1cFTL/FZ0nafjnty6R5GLGCSPrO6ZcIL/GSxcnZaM3f5JO0uY9ZneRHoaWyFEMBfdayqjaDFcVoPrrxMHLgz391x17ANbBVIZTAE991+vYeJ/3JcDIKUwGWtclcdFRjgrmV9SMFjTHknnKzqFLgcNKYlSEJTODnku+MWKKy38mL1JFBn9KO9TSCb+ePPSaDFb/55Bv1CL6r8XEfTqhoRzDPfimrdBiRSb7AJxv9+KeUO/CUMTeLPsZotGVpBim1SbDn1XAWMk54U0sJ5fBPRKLzWaosEqCFc/hU0TZkxFKvxEu8Q3+/VHawWpYyFTC0x7aTkOU2qY3YzFQ2VtRlwiqI5XVBUU1BMN3qRZsHRMZ9B1acPNnLpxV+OV6qmQBwoZkcQv5ju48EIBQvBR1JjGdHJWMQ1CtTCusMMwgu66ED7BkVplk/ACvhlTriKHgf++AG6FUS2AYBFFTRJY1BAgNFejREKbAF4jwhzeuGx7eSO/oxKHKcn159y/JfnHc6TFnwMShdBMruHQQWEf4IdJRzVTSYNWEsuOj4m/X4yrWvYqg1lXOmW7ALAukldxqHWzAXGlBePsI91CgaGAXQ4FfoHDYaKXz4CoEbvEM4etammDj4nLop7vQ1i5+44B55mBNCIYm0gfew8tJGcElsWLPSUIikOOjMiByj2hguyf4LH8s+YqhrBD/jqsyTrY7Q3Q7p8MB1+VS2eBfdeWWcoIPG1SrnCMuhYYDQVhTt/MSLjYx7nGu1zsgeMvUTVQdljcO9savNWRu5xEjxkARV5XLXcOKYkitDu8M88uwPPiy80GJA6zI7jDyh56ajvBgdR+bbwiiesO0v/v0/iQAAAAD/BwAAa1I1x0zHjkbTKM3G/KyORQsAAAAA"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1340
+    }
+  ],
+  "materials": [
+    {
+      "name": "mat_123",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0.6509804,
+          0.99607843,
+          0.98
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.903921569
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "BLEND",
+      "doubleSided": true
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Fragment19_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Fragment19",
+      "mesh": 0
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ]
+}

@@ -1,0 +1,30 @@
+TAP version 13
+# Subtest: geometry checksum, gzip roundtrip, unique names, and valid buffer ranges
+ok 1 - geometry checksum, gzip roundtrip, unique names, and valid buffer ranges
+  ---
+  duration_ms: 373.958959
+  ...
+# Subtest: every output triangle has exactly the original decoded positions and normals, in order
+ok 2 - every output triangle has exactly the original decoded positions and normals, in order
+  ---
+  duration_ms: 47779.326542
+  ...
+# Subtest: source hashes detect changed or missing assets
+ok 3 - source hashes detect changed or missing assets
+  ---
+  duration_ms: 15.68275
+  ...
+# Subtest: classification retains shared muscles and flags legacy exceptions
+ok 4 - classification retains shared muscles and flags legacy exceptions
+  ---
+  duration_ms: 0.797291
+  ...
+1..4
+# tests 4
+# suites 0
+# pass 4
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 48284.212209

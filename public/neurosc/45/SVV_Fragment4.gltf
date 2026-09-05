@@ -1,0 +1,115 @@
+{
+  "accessors": [
+    {
+      "name": "Fragment4_1_0_indices",
+      "componentType": 5123,
+      "count": 744,
+      "min": [
+        0
+      ],
+      "max": [
+        127
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "name": "Fragment4_1_0_positions",
+      "componentType": 5126,
+      "count": 128,
+      "min": [
+        37332.88476657914,
+        18933.67187595414,
+        4112.78564548539
+      ],
+      "max": [
+        39387.16870343796,
+        22227.27734279586,
+        6241.0109447037585
+      ],
+      "type": "VEC3"
+    }
+  ],
+  "asset": {
+    "generator": "obj2gltf",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "name": "SVV_Fragment4__1_1_0000",
+      "byteLength": 432,
+      "uri": "data:application/octet-stream;base64,RFJBQ08CAgEBAAAAgAH4AQD2AQgAPm+1qrSq9FGl+pRStbZaRUsfVVWqqi1VpUqrVCmtR5VqaSlVirfVaj1KS0uLlnqjVGnVo1SrtKiWKvqoUi0FAQEgAf8AAAEACQMAAAIBAQEBBuUM8R4BAQEB/QJVAYBUJywLVANUVAesVNssA1QnLFRVAVT/QyysAQIs/w8sZywDgQEs/0cBAS0BAyz///////87LCxVAQssPwEBgC0BLBMsL/0B/QEHLCwsLP///+MsWyxTLP9rLP/////rLFMsny0BEyyDLANULQELLLIBqXmaak97hRaJ5S9OIOK20gacgvIE2/8IKYJe9VdOLhXF8af2FC5rjn2oQ/eXKRr6qZZmo/wnvMu81Xp4ga1bcqf18xWM9+vbvr7w6tfp+JSspNucN5+cQlKz7vCotEQSWnV8eBiaQTIB74Li2xjVHYedPPfxzY+Yes0EodA3NRJck52oGdORZPqrkJk/sko5kQmCh320csKMZBKQKGzIqB51sHg0prUt6lYNrYoZ+5B/jAAAAAD/BwAAftYRR4/uk0Ylk4BFQKZNRQsA"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 431
+    }
+  ],
+  "materials": [
+    {
+      "name": "mat_127",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.35686275,
+          0.99607843,
+          0,
+          0.98
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.903921569
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "BLEND",
+      "doubleSided": true
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Fragment4_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Fragment4",
+      "mesh": 0
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ]
+}

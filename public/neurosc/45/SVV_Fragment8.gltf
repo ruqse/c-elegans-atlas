@@ -1,0 +1,115 @@
+{
+  "accessors": [
+    {
+      "name": "Fragment8_1_0_indices",
+      "componentType": 5123,
+      "count": 528,
+      "min": [
+        0
+      ],
+      "max": [
+        86
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "name": "Fragment8_1_0_positions",
+      "componentType": 5126,
+      "count": 98,
+      "min": [
+        -28469.01355606623,
+        50596.57238143377,
+        -3349.3848939568575
+      ],
+      "max": [
+        -26657.430016439837,
+        51910.189708715305,
+        -1352.6475767462673
+      ],
+      "type": "VEC3"
+    }
+  ],
+  "asset": {
+    "generator": "obj2gltf",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "name": "SVV_Fragment8__1_1_0000",
+      "byteLength": 368,
+      "uri": "data:application/octet-stream;base64,RFJBQ08CAgEBAAAAYrABAK8BBQEeCgEub9+0+larSqtKq0qrSqtKq0qrSqtKH60qrapSrapSfaOqlLZaqmi1dF30UaVaCoACAHEB/wAAAQAJAwAAAgEBAQEGww3hHmUCZQIHiQEZAV84E3AT4P97ODhPOAMZAQM4//8TcAM4qKgDOP8nOP9XcHD//xdwA5kC////////////1ziLOKh/cA9wcDgP4GctAskEC3APOH84O70BUziTOJM4kziTODiPODgPOGM4EziTOJM4gwE5X1qShdfBWHPyGupYDDEG/eMmXBX6gsYJFSWYV/Idis5jYn9r6idsBmnRZCrmvhc/T+u2PtJ0u2JPKCkA8SXdlGx6X6qx126SfcHmGC4TAzGeeKLEb/QBI7m+zHRagMjuIpicoJfVnIYXmvw8Bg5Y5RXdjit8d9RpC9C2zmkIDrsvkAAAAAD/BwAAFGjexoylRUeRRlHFOln5RAsAAAAAAAA="
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 362
+    }
+  ],
+  "materials": [
+    {
+      "name": "mat_130",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.99607843,
+          0,
+          0.20784314,
+          0.98
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.903921569
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "BLEND",
+      "doubleSided": true
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Fragment8_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Fragment8",
+      "mesh": 0
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ]
+}

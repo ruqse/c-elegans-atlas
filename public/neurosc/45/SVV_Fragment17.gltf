@@ -1,0 +1,115 @@
+{
+  "accessors": [
+    {
+      "name": "Fragment17_1_0_indices",
+      "componentType": 5123,
+      "count": 7464,
+      "min": [
+        0
+      ],
+      "max": [
+        1217
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "name": "Fragment17_1_0_positions",
+      "componentType": 5126,
+      "count": 1291,
+      "min": [
+        -68461.89476978505,
+        -88128.51195728505,
+        153831.05835521495
+      ],
+      "max": [
+        -63842.38634281876,
+        -80869.28442919516,
+        165589.28539478505
+      ],
+      "type": "VEC3"
+    }
+  ],
+  "asset": {
+    "generator": "obj2gltf",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "name": "SVV_Fragment17__1_1_0000",
+      "byteLength": 2144,
+      "uri": "data:application/octet-stream;base64,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"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 2142
+    }
+  ],
+  "materials": [
+    {
+      "name": "mat_121",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.99607843,
+          0.30588236,
+          0,
+          0.98
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.903921569
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "BLEND",
+      "doubleSided": true
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Fragment17_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Fragment17",
+      "mesh": 0
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ]
+}

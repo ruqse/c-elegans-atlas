@@ -1,0 +1,115 @@
+{
+  "accessors": [
+    {
+      "name": "Fragment10_1_0_indices",
+      "componentType": 5123,
+      "count": 3990,
+      "min": [
+        0
+      ],
+      "max": [
+        674
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "name": "Fragment10_1_0_positions",
+      "componentType": 5126,
+      "count": 692,
+      "min": [
+        20381.975929905046,
+        -37532.70571071996,
+        31568.513039280046
+      ],
+      "max": [
+        23607.688586765693,
+        -30937.114468200416,
+        38953.41274196996
+      ],
+      "type": "VEC3"
+    }
+  ],
+  "asset": {
+    "generator": "obj2gltf",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "name": "SVV_Fragment10__1_1_0000",
+      "byteLength": 1480,
+      "uri": "data:application/octet-stream;base64,RFJBQ08CAgEBAAACtAWyCgCyCiwEGQqIARxTLZcIGQ//ATNCAQMFAxEe0QUpG/gOahQT6Zc6s0zBsLHqDKhBAQMFA90I1QptJeUGELSTxkfoatLLT2Oi2n2/oIC1AQEDBUEEbQFtAeUyBQYbckW/AKUDXdKvwnhivCpfXqBKnBGTwJkqy5WFqgMBAwXtDwNM/S3NATmVApxyl8GCR+f99pIbooFsKLdo1UOAESj9EVdLF3CC66g21vZat4frDP9ZUJtJ+bsygsSHId37sYbaAwECBV03B/kHrCcXcJBv1rKnUZSdt4/iMcXpA0MgEinhceZwSGQNcDcdDiAJA+WWBUR1AQIEFTsH7QQIBRcxh/lyzI0B/wAAAQAJAwAAAgEBAQEH1Q3FGlEF5QQoGAdQIFicgJA4cBMQN2AwkFgLEB0BZQFASH8QQKR9ATggCwgDCH8IA8T8GCBzCAcQAzhQ/x8I/5MIA8SAOGgICBALCBgFAVikaCAQB00BXQFlAu0BcDAI/7MIIwj//2MI/wM4MBAICBA3GBgQAwj/////kwj//////ycI/6MI/ycI/zsI//8HCPIHcdzfduxhSHoQwJhqRHyPBPZiRoPU0nSvjeyo7iOKgj2ZRXwOcXSL7VvNpZq6DjRb1HjO894K7evGkOggIJdiNaiF0sFsXX/cJyZ2Y/EEsWzCUWf/0b6gz1G0nLkGggkb86LjWlAgkdGOg9q/NJClzjDmd+3b9451IWocBdG5DaH4740SSEOHUKw+H59Va3+NasAyDVsOk7jYfbtAa6uKPG1v9GAgWYajxI7XWvPUeHWLiPaMvB7Zdbf4QqjBR+0YA/Cf9EY0gII8uXGm1QY1SRFAFv0CeiqeWnyLmblqh6+w+kLEroAvOtNTET2p2cgGH3bQKgeNDIUZYpWan4DcGdBIRwXlpd20rcPimuywShap9AfCplTJa4QbTxbvwVEeVvQBPKBZc2zjISRyO1hJ4tsdqYdJAgmpiX2s08A22Ko+oDOh4Gmzdw/WmE7YdMWgUNiFe4hz8t7oLGc9WKtbpiC/B+izGxMN7C2A5qOXQlP1/bX0MAVtUrGNuXPCIatl56c2b3kZ7Chronm0G1GC4Ck5vWimmPqPnGn+D47n3nWk1AU87DqkMoRW6hIvwsBSEXA0+qqX8gVNG0yROc8aREUO2ljf2L/5TYDiJ9xisQYMEVyZfGDNpVLXEJqDOQp4bICmctfYBnfNP6mINie8klVRh8SOMaCj2yu24+XM2IPrQrEGWMo/hQLqRRcv8dXpRVVj76Y8ijYfy/QCqLteLsLKxFOQ0Nk3rYnG+O6jY3RpSdtByBZvSK2joxbrLiHWsZL4ngVu5KWBEBwrMdrn+Hzi34+ZSkxCUZEtu/eBeWZbaW6yleD9xbyA9Dz7LPhfpuBcIg9X7FKxBkcmdJi3EkXwtV+0dA5EEQnPSkoqQOcPFWDYQBwX+e1x/ae10W4qP2KzaeuM4ClluJxQu2NCCaYr3Dz2ALEyUQLgFvYIu0xzwFZLKARzkPlgePfqf/3sKRjnlEwR1WRoJNbxRKm6emPIEMOaN2oJyAbk1xX38o1gxE/IS80K5oFpN8dH7pu9Lt10uaw1a6FlHNPGwaxCIoFihHbNKYRIU4sHMHQ4rwDy6q3k+bjrTE6OMFq2T1OaoOzwGtJngMS2pZLnlwpLneBcnHgYfKhUvSaLifO5+OTv6ilchvC5byUWj4h4uhd2AbwZsn5tkEGfZ7LT0uu/AsrxtAnz7ZmotTEvsenQQYxCPZnXKmVU7BFzmBxQu4WgYXEjCjJGrn5pHMGbIWQQ59UlQewDZSKOGcodcB8sg+ifh+sVvHKEWLACY3PZUvf7/yCU+XGS4YMP3SBsrbuMOS8y6NggO3I11lsdSpvyb24IVmpj+jnyWWq4KBH8+X//v4AAAAAA/wcAAClDn0YamRLHPKj2RoiN5kULAAAAAAAAAA=="
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1473
+    }
+  ],
+  "materials": [
+    {
+      "name": "mat_114",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.99607843,
+          0,
+          0.8,
+          0.98
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.903921569
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "BLEND",
+      "doubleSided": true
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Fragment10_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Fragment10",
+      "mesh": 0
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ]
+}

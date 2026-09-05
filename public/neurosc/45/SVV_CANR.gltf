@@ -1,0 +1,115 @@
+{
+  "accessors": [
+    {
+      "name": "CANR_1_0_indices",
+      "componentType": 5123,
+      "count": 4917,
+      "min": [
+        0
+      ],
+      "max": [
+        839
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "name": "CANR_1_0_positions",
+      "componentType": 5126,
+      "count": 840,
+      "min": [
+        24429.876504679105,
+        -1978.1830656333964,
+        41252.9917390541
+      ],
+      "max": [
+        29305.737641021922,
+        658.0177179065404,
+        47753.0824796959
+      ],
+      "type": "VEC3"
+    }
+  ],
+  "asset": {
+    "generator": "obj2gltf",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "name": "SVV_CANR__1_1_0000",
+      "byteLength": 1496,
+      "uri": "data:application/octet-stream;base64,RFJBQ08CAgEBAAACyAbnDADkDBgC2wEiUCcDQANAiIAkAQIEA6kqkQPJEQfofhVREelwIwECBQd9BbE41QEF+BYRh4ikAQEDBfUBAy0BlThNBBAJXHJlhd/aBPtGfiE8OjOk/gQBAwXVCAM0xTU1AT0tHJwU0lDCQKC/uFhczyC9tihlIoKeAU4rL8rdv6Cwqjgou45DMQ1KH+4f8ncxqTefCB6t+YXrzmxrVrCgtwUBAgUJOwfhBBgm2BjrU9D0CItPSc0F/Gf9wNK4Lh5p4O4sKMjQJb0FY8de2xCclYBDAQIEDT8H9AOKiqoB/wAAAQAJAwAAAgEBAQEH0AshHkUIUQfslAMIFAw8CJQMFCwgIFcoPFBQKDQDCBQMuEhIHAMIhwwDQDxcQK8IAygUNBwMkxwDhAgswwgXCP//GwgTCBQgFCgDDAgIAwgDDAMUNChILAM0IEggHPkBvED1AigUswiDCAgnCCsIKwgrCCMIKwgrCCsIKwgrCCsIIwgrCCsIKwgrCCsIIwgrCCsIGwgLCBsIKwgjCGMIEwgHCAz/////////nwj///MIiwhFeNn7lno2A7GocDtIbijzW/jq2MwTqFPq+pzd0W4AoXdlVzcA3Aod3KK8qxh7TpeTe7RJWiwV+ILejUH6Jj0sobgBD//56Kh0sBj4TB4PSMaEe4bVBBkgiU4z8hpqDnzAHjrK0BxBAAThw2MG6SuOHILp7zR10a9gxH6c7dmDigmkzBy4f2qM5QS2d/MHl4y+hFGxqu12rlTvOUiSe6R60ryfrf2J8JjHWabXpwb/IEYDOOmsZLpxmed7FJIZYaw2VVY/aWXAz5nejXJOTaqh+tsbPEGTs+QdN33GzNfmtVuG/wiTTnKKllA8zmEEgI8AF8/tj2hes/1ZU/QsixQV2Iv0iLWePgLM6mmTpSM+2hLtIcyA7KgcRTR2OJrp/KESdbuEcltWtTwTCZWeB8GKoj46RYUG2a7RoRxJkKk+lheSn+kfHYaa+wKg4QWebGuzJfx6uT5szurr/Aiumk+uKtowTT1aw1pOJa22V8SI3INwQ6cmhDVgZ5Dh4b97hF9WS8FkwfRn7LxfbvvvifJEIdJT81zIQXRKd3yA7N06jzZs6ry6l5skd2f1nZEWjfboq4udw7RMU6hdVBylpsX1aZreTXX1EcqkdILhzW6SSl9Dumq6InbGPpXAZmuomGt+1z8ySw5KxzOBu94nvo0JVFLOg5L0cw1uzViw4zBCnsxbE4YNv50VN8+KNJnHPNCIuSq0RN6+HwB0+jGjqr4vgr2JfeyeS7FmI7d+kt72NhZSRZ1ITg8Z33C8fNK6wdtxYeQa5R4ouaaRIUPq2HtKqdquCFuyonP4n0rzCsIVFVXL6yI01bIESTVhvH0ovzzUreohM4n5JKt+1NICZiCoHp8JhW7SZrl8039WV0HrjnyU+1X2myBfx7GZ2ySk2l92A/IEE2nty+0EQRQtrHHtevndSWDRP12phJ661m6SxAIUfZBJtaVGXz1y7Mljk0/ySnc8P07Tlw1JAXQu4sKnf9dfzqB3ecchlsPy537hh8oUNA/BIa7j82Qo3TouRDRFkLH7MhebFFblxGNnJHsoxmcvWktfaL+pylQSnRSxQFeV5w2Uzm+Ld/UjqqbwWwrWMe5vj32KBKGxXqPMdWeCRmFrmaoeGeJxCVb30rMu6bpnzFBoVDACXHEKRwCyeXenJKl2t0t1uXIg247OkAuyxzeKI2Hz+ppBUuiRzKAtDP9yUlpM1nK1iEZvpA5IQKwV0gC52QW/eTYhmQ487kREf8KEdvPWiedFUgeIog0LgXf856UqJ7BgZFO1M7i2JVxpWfOtDtrtGuKVtaNAyoEawKOnEqcmrsVO6MM0pKs5FB0h0pesIg/kl/66dGJf/rifpwvyBmCiWst/yijl9fAN2B3/6Oqoks+VbYEAAAAA/wcAABnivkZY4PbEKighR/jtykULAAAAAAA="
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1491
+    }
+  ],
+  "materials": [
+    {
+      "name": "mat_104",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.99215686,
+          0.99215686,
+          0.07058824,
+          0.98
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.903921569
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "BLEND",
+      "doubleSided": true
+    }
+  ],
+  "meshes": [
+    {
+      "name": "CANR_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "CANR",
+      "mesh": 0
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ]
+}

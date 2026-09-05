@@ -1,0 +1,115 @@
+{
+  "accessors": [
+    {
+      "name": "BWM-VR07_1_0_indices",
+      "componentType": 5123,
+      "count": 10854,
+      "min": [
+        0
+      ],
+      "max": [
+        1836
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "name": "BWM-VR07_1_0_positions",
+      "componentType": 5126,
+      "count": 1837,
+      "min": [
+        8807.986256564485,
+        -23031.154368435517,
+        28810.843678439483
+      ],
+      "max": [
+        22134.636790310513,
+        -19440.95861703102,
+        35867.65960284868
+      ],
+      "type": "VEC3"
+    }
+  ],
+  "asset": {
+    "generator": "obj2gltf",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "name": "SVV_BWM-VR07__1_1_0000",
+      "byteLength": 1968,
+      "uri": "data:application/octet-stream;base64,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"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1968
+    }
+  ],
+  "materials": [
+    {
+      "name": "mat_701",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.4,
+          0.99607843,
+          0.2,
+          0.98
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.903921569
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "BLEND",
+      "doubleSided": true
+    }
+  ],
+  "meshes": [
+    {
+      "name": "BWM-VR07_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "BWM-VR07",
+      "mesh": 0
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ]
+}

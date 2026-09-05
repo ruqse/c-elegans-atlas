@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-09-05T19:31:03.158Z",
+  "sourceCommit": "937839d19f505d0dff9aebb1e3bc69f7855942a8",
+  "geometrySha256": "5ff7408b9bdb0133175e4336eba29a5fea5d53801751cdb14d5305976654b0aa",
+  "summary": {
+    "objects": 692,
+    "sourceSegments": 713,
+    "triangles": 3200748,
+    "vertices": 1618311,
+    "neuronNamedObjects": 301,
+    "bytes": 77248440,
+    "gzipBytes": 27836459
+  },
+  "status": "PASS",
+  "tests": [
+    "Exact comparison of every triangle corner position and normal with the original decoder",
+    "Every source segment included once",
+    "Unique object names and valid buffer ranges",
+    "Finite coordinates and in-range indices",
+    "Source-file SHA-256 verification",
+    "Geometry SHA-256 and gzip roundtrip",
+    "Shared-system classification and legacy exceptions"
+  ],
+  "biologicalCertification": false,
+  "knownMissingNamedGeometry": [
+    "AIZR"
+  ],
+  "testLog": "geometry-tests.tap"
+}

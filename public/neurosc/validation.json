@@ -1,0 +1,8 @@
+{
+  "date": "2026-09-05",
+  "objects": 430,
+  "triangles": 34283117,
+  "vertices": 17567352,
+  "accessorCountDifferences": 0,
+  "note": "Counts are decoded source geometry inventory, not biological cell counts. Upstream accessor counts may differ from Draco output; rendering uses decoded topology."
+}

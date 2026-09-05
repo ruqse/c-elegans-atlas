@@ -1,0 +1,115 @@
+{
+  "accessors": [
+    {
+      "name": "Fragment11_1_0_indices",
+      "componentType": 5123,
+      "count": 1326,
+      "min": [
+        0
+      ],
+      "max": [
+        224
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "name": "Fragment11_1_0_positions",
+      "componentType": 5126,
+      "count": 225,
+      "min": [
+        -58452.18801141915,
+        28762.45066045585,
+        -26282.94777704415
+      ],
+      "max": [
+        -55916.6544676661,
+        31396.014236726,
+        -23568.57566045585
+      ],
+      "type": "VEC3"
+    }
+  ],
+  "asset": {
+    "generator": "obj2gltf",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "name": "SVV_Fragment11__1_1_0000",
+      "byteLength": 688,
+      "uri": "data:application/octet-stream;base64,RFJBQ08CAgEBAAAA4QG6AwC5AwoBIQ0BcG/1UaX6lFJrS6uqtEqrSrVKq0q1SqtKtUqrSrVKq0q1SqtKtUqrSvVRWlWq2lKtKi2tKq0qVa0qbytVpapKqVZVqSpVrarSKqVaVVql1lZVlRZVrapHaalqaWnRUvVUlVJK+6h6VNHSUrpFH1WqpQABARAB/wAAAQAJAwAAAgEBAQEHvQ+dG/0BqQIYGJ0DbQHcYC8wC0gDSDAwA2ADSBjESzAYu2A3nQFI3P+LqA0BGD0BPxgY/4cwMOUBMEg/GCcY/xMwAxhIAxhrGP////+fGGsYaxhrGGsYaxg/eGALGOUBDxgHGDMYD9xIeDA/YGAPMQL9ATADGAMYCxj/uxgDGLMYaxhrGGsYaxj///8PGP9LGP///1MYaxj//x8YuzAw1QIPSmvX70vWhwAF5h+lrtJ4MHuwAIut6NpyiPZR0CdMCKPM7DYjWfjrBkgmCoQGW2MeCssnXCc3dH+jN8/nEfJVzoNbzg1MBDd0EBRvl1pWgpHx4A88P2QUAbShiiu0YieNeyE0HjdslaQGrZRGyOauNkibSnmj6N6NvAZUL3Ah5R0v469jfrXFYBimcVvNJ8An1x4UkAEP7ALGWfryGzIclo3DnL6ipiGH9E6CWeQS5edPaCBsVI3cuAfaQWwveAVOv/XWMCtIu7nh7Kwfb5OB/WMbM+qZ5aI0FQUP/9QM7EqpXV9UQjiDIXYCwlIBsH14x2HcVoj8wVGyt35qIB3LD7H4oSed4eWwlheDIXbwwVIBsH14x2HzJFCyzFuP7910YPiqCzaFTbBkwzDNOKaw+KAFQ+U75VK+eLDK37V8uWz7uWrtlGr/ILZGPTXvK9Wr/7dcgAAAAAD/BwAA3VJkx4234EY/U83GkHspRQsAAAAAAA=="
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 683
+    }
+  ],
+  "materials": [
+    {
+      "name": "mat_115",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0.99607843,
+          0.105882354,
+          0.98
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.903921569
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "BLEND",
+      "doubleSided": true
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Fragment11_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Fragment11",
+      "mesh": 0
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ]
+}

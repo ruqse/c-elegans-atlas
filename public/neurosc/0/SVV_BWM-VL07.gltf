@@ -1,0 +1,115 @@
+{
+  "accessors": [
+    {
+      "name": "BWM-VL07_1_0_indices",
+      "componentType": 5123,
+      "count": 3486,
+      "min": [
+        0
+      ],
+      "max": [
+        598
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "name": "BWM-VL07_1_0_positions",
+      "componentType": 5126,
+      "count": 599,
+      "min": [
+        -18186.210921279617,
+        -18160.595686904617,
+        33809.47657872039
+      ],
+      "max": [
+        -12551.494156845383,
+        -15600.360788081643,
+        38168.200869412554
+      ],
+      "type": "VEC3"
+    }
+  ],
+  "asset": {
+    "generator": "obj2gltf",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "name": "SVV_BWM-VL07__1_1_0000",
+      "byteLength": 944,
+      "uri": "data:application/octet-stream;base64,RFJBQ08CAgEBAAAC1wSKCQCJCSQFSB5mMh9NmgIq9AEuHwEBEDMBAwUD4SGJBxUUhQIM1jMCm6sMH0iLDdCrMgEDBQNpBrEHOSqxBwzk4xUS7p20UidiQ4CaAQEDBSkE1BUCCTbpAhSmRb3OiAJOarTMGMcofQXYNfOHg4UDAQMFfQ5UVJEuTQI23j21SoNeAmYegcgdEZR7ay65NhPBRA8qmU17E1YjTJiaHRTkS3a2RDX0+BDTVCNI8WEq4ClKpwMBAgXlOAfRBkwfuSB8V+HSLJ2QWqbWwJJ+BnlFLC5YTKDraYrjjSBTgF0BAgQNNwf1CAkpnNbQAJ77dJAB/wAAAQAJAwAAAgEBAQEF0AvVJZEEmQPIrAcI/0McHFEBrPUB+P9fCP//04gBAW0BCQFBAgkDnGQ4JP//////r2RAAxT//////////////58IwwTqPmqrSWF5v1seFgDiRz2lnu+MrQ4j6dNZ1RX7SEaIvzjFhtZrStkZvzIfx9F+nfEjf2lnAyezatKFAJ/nrTvpmuLb38LVrNLyvNFR+qratiy+WchbaaDXxWvpqGXERjpRnZ24cgbPDndeKfxfm5xJa+vtOQSFNjgPjN286brOpKcM35l6h4lLdLnedm5PdTALh1nlc0ayfRuSZjwYQ4wiOvF2wK9zVDoXolnidPOeDfvCOEZmINque0XNSRjtwNzhiHZsgR93Un6uUUjP8YTY91BT4Ze6/bV3qYOZTXpHuevElFWEct82odjMxNlGVtbjLwQEZQHtr86TViUW1zmMaogVZ4vQk1aIKYTDRREBo41YCgMRpMFylqbxt57X+86UxhUy82Vd2jYbwwIUsmdjTwTSBIQM4V8zK+pP0ksA+d1IpkCpDWltTi6HOyBQoh/SSxvYbOmZtLOc8YGWo5kS+aMwg3O3HdsuaXAUuHLprlKo8YTn9aCmSTWmE7JS0+JOjWdw7u/UWpWTVd65DaopSOx04aU7Yv/PpHZq/89FyhC9SxdqUPTvEfGUL2n7vt7NAqhJHG+VDOd0NUnOSV0s+kPwj4uZhVyK9tvHufSrBuMLeAUxYSXmMgEXNHs/2jAO/B2awKJqp0azJyLttbEJKE/umYpjqFL2k6CRl7HDqOLBvVnmdCeV1x3AZM/JGiC57NsFndGoiK67s47UaGsIJdATR4MMAOC3P5ZFpcJBYrdiwk44dmaJ+4W77rhc/t+g/7IAAAAA/wcAAOwOjsax243GOhQER7zpr0ULAAA="
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 942
+    }
+  ],
+  "materials": [
+    {
+      "name": "mat_693",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.4,
+          0.99607843,
+          0.2,
+          0.98
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.903921569
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "BLEND",
+      "doubleSided": true
+    }
+  ],
+  "meshes": [
+    {
+      "name": "BWM-VL07_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "BWM-VL07",
+      "mesh": 0
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ]
+}

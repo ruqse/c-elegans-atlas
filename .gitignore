@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.log
+.vercel/
+.env*
+.DS_Store
+public/atlas/geometry.bin

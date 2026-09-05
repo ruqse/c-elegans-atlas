@@ -1,0 +1,29 @@
+{
+  "name": "c-elegans-atlas",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 3017",
+    "build": "tsc --noEmit && vite build",
+    "check": "tsc --noEmit",
+    "data:build": "node scripts/convert.mjs",
+    "test": "node --test scripts/*.test.mjs",
+    "preview": "vite preview --host 127.0.0.1 --port 3017",
+    "build:vercel": "node scripts/prepare-geometry.cjs && tsc --noEmit && node scripts/build-static.cjs"
+  },
+  "dependencies": {
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "three": "0.159.0",
+    "lucide-react": "0.468.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.3",
+    "@types/react-dom": "19.2.3",
+    "@types/three": "0.159.0",
+    "typescript": "5.9.3",
+    "vite": "6.4.1",
+    "@vitejs/plugin-react": "4.7.0"
+  }
+}

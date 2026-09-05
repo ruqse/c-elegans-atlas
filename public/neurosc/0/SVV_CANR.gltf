@@ -1,0 +1,115 @@
+{
+  "accessors": [
+    {
+      "name": "CANR_1_0_indices",
+      "componentType": 5123,
+      "count": 2976,
+      "min": [
+        0
+      ],
+      "max": [
+        507
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "name": "CANR_1_0_positions",
+      "componentType": 5126,
+      "count": 508,
+      "min": [
+        38833.04163867855,
+        2383.247693366054,
+        29199.631482428555
+      ],
+      "max": [
+        42415.999610710795,
+        5454.354526536547,
+        33172.29429882145
+      ],
+      "type": "VEC3"
+    }
+  ],
+  "asset": {
+    "generator": "obj2gltf",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "name": "SVV_CANR__1_1_0000",
+      "byteLength": 912,
+      "uri": "data:application/octet-stream;base64,RFJBQ08CAgEBAAAA/APgBwDfBx8CugEjhwQgAvwBX/ulqlWtqqeltEpLaVWLtkqL0mpptaUe1qqnqqWqVVUtVVotrZbSUlUtpVpV5SlaqqqlqvUn6o16lFJVLfUorWqxthR7qpSqatGnVKu0qqqq67q0VKv0UVWlqqrlUa3SUlWqqkrb0qrSqipVVdVHqVaVVlWpqqpqUWtLVZVWqapqQbWqqrRKVVVLtaqq9FGqqlqqVVWl2qKqqqX6qKrSqqKqqqqeL1SVVpVqqSp9HlUtVVpVqqVKteVpKX1U6aNKtZSq0ke1qJZSfUqpFvV1i6qnLdWipapSVaXr01KtUi2lpapKVatKtdAWLVWlqlRVS5VSpUqLliqlilIAAQEQAf8AAAEACQMAAAIBAQEBBcIPNST9AuUDoLh4LP/nTJi5AdUDAwz//wMM//8fFP/TWMyADL0CUQJtASkDQFgUDP//////////IzT//////////0MM////////Rwz8A+U7Ap9dPUkFz8A9UN9hlXClrVwkL3iCtF+CR2CGrQKAEDA5/7H8hFDxDJLhxll62LyP7EDjLJY1jhOtH3lyEtLg+qRxXNysk1UL/e6S4uCX9zkP7vAPkF1zvEW0N+FfmFI6NW5HeIq2lWSjx9IJUv0vP8LxYjqqpSXEHlHXoWdxPqZRv+7ahcCxWdHwAJhh9U3hbd845M7EI43IlbFjxfY2bOmYojH5zJU+8ybRqbZ3yLYpHq93k5hmakyRUqHzTwUfhbqiuaMnRNl2PsjW5krg4mJXcVWRVLxPQo4a8cbFOQ+wxgErwGGhErTVe83oDxtRg97N2fGtky6ZouDGxzRwXownHVMw9ZTCVA5pEY5nd6mfA3ciWNV7FVvSlRK5kT0luxdFIfm5Vmh7CwXci2P0PhuP3KZmgiUT0YsvWbGJkUZpyr1fYMNCxyjKgGmOTjOYR7YwRGgJbj/woTQB6RJIMd83Ca6iFL9r5STyBdbZKPhhU/xPAQaCP1+nvq4hak/ftMpRhj9fp76+0M6Yf7W+wXspDqz4fyHckWei81dxY5WMMbQ/fEOQdOfbozrXO2K3bDbRBTg3aWv1MWlFfuc11BfY8wFhNWdkdWURUozPFI3PnCv76bF2/WMpjCQOaY81UlOZIPBGLJnu/WvRKA8LnKKly5Vt+n/9n4AAAAAA/wcAAPuyF0f8EhVFJCPkRpAMeEUL"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 912
+    }
+  ],
+  "materials": [
+    {
+      "name": "mat_703",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.99215686,
+          0.99215686,
+          0.07058824,
+          0.98
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.903921569
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "BLEND",
+      "doubleSided": true
+    }
+  ],
+  "meshes": [
+    {
+      "name": "CANR_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "CANR",
+      "mesh": 0
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression"
+  ]
+}

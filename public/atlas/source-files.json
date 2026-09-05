@@ -1,0 +1,203 @@
+{
+  "commit": "937839d19f505d0dff9aebb1e3bc69f7855942a8",
+  "sourceUrl": "https://github.com/openworm/wormbrowser/blob/937839d19f505d0dff9aebb1e3bc69f7855942a8/org.openworm.wormbrowser/war/models/Virtual_Worm/",
+  "files": [
+    {
+      "file": "df4944b1.Virtual_Worm_February_2012.utf8",
+      "sha256": "dd0d5fa1d094d881d4978ed35bc1da01fbf03219e51b6e24973844a2dcce0a17",
+      "bytes": 229489
+    },
+    {
+      "file": "fd0da1ba.Virtual_Worm_February_2012.utf8",
+      "sha256": "6bc2a803b4c29e2a8bb0602ed7d29ea7b71bf4daf544e44a7bff9f4156e177c9",
+      "bytes": 3517931
+    },
+    {
+      "file": "5ec61bf2.Virtual_Worm_February_2012.utf8",
+      "sha256": "6d542b1a9d304c7b744ea11fd0b51f46ba6ce5945a0fb5f984b62d7f2bf1d86a",
+      "bytes": 88407
+    },
+    {
+      "file": "ef56b91b.Virtual_Worm_February_2012.utf8",
+      "sha256": "88f37f086a77703426adb2660610124e9e5b74c6136e87986ff7ab88759820c7",
+      "bytes": 512029
+    },
+    {
+      "file": "55bbb055.Virtual_Worm_February_2012.utf8",
+      "sha256": "04080fce653a6b5b61c6829fc86707d4ba445a05d3d6af9516a9c3805dbb3de9",
+      "bytes": 278301
+    },
+    {
+      "file": "68eacfe3.Virtual_Worm_February_2012.utf8",
+      "sha256": "0677acdab5631e465256293fe774bf58621e71244674e924f0c39f48a0b05c19",
+      "bytes": 77031
+    },
+    {
+      "file": "b7440319.Virtual_Worm_February_2012.utf8",
+      "sha256": "5918c3719dbe67948bf18e209b6b763f8278451a3aa4e093e2227b13eb58bbc0",
+      "bytes": 8824
+    },
+    {
+      "file": "88879a20.Virtual_Worm_February_2012.utf8",
+      "sha256": "8eb439b6fff146b00041b233e996cb4a2d1a743e615b2cfc7ed32bf9bd80be31",
+      "bytes": 26547
+    },
+    {
+      "file": "e48d7856.Virtual_Worm_February_2012.utf8",
+      "sha256": "b167a356faef9107b6b188bdad73645a353c56ebd78ea388fef341a3b896653e",
+      "bytes": 7709
+    },
+    {
+      "file": "267cfce8.Virtual_Worm_February_2012.utf8",
+      "sha256": "a83c8db623871eed6724c47019b0ce75bc2aa70724cfb0ab2380be1bcc8f0f0c",
+      "bytes": 183472
+    },
+    {
+      "file": "f8a47c2f.Virtual_Worm_February_2012.utf8",
+      "sha256": "f97351479ddd290c94e6f02a526ce829b6a7e7b0acbe2126a2613dfe0c831df8",
+      "bytes": 119232
+    },
+    {
+      "file": "03c8448a.Virtual_Worm_February_2012.utf8",
+      "sha256": "dc72f8bec29e3e103b305478ca9f305c10893da22ea706b8516c9daeafff9664",
+      "bytes": 38927
+    },
+    {
+      "file": "cf2096e6.Virtual_Worm_February_2012.utf8",
+      "sha256": "15a486dc90430b06baf38708cd31b8163e485f2b563139e076d41c2cef73ddfb",
+      "bytes": 1881539
+    },
+    {
+      "file": "9ef380e0.Virtual_Worm_February_2012.utf8",
+      "sha256": "7c614681ac9c87c168373ed74cfd1c36f3c8dadd79cb675669e0a2d486e4ab28",
+      "bytes": 3727435
+    },
+    {
+      "file": "89e6fddc.Virtual_Worm_February_2012.utf8",
+      "sha256": "aff1d60a127204c0619ba79e8df783fa022e9cc5c546b4b805f5b76d90287375",
+      "bytes": 368603
+    },
+    {
+      "file": "82f5d638.Virtual_Worm_February_2012.utf8",
+      "sha256": "274754646d8baf0054d29e039c009a44724700bb096db8c9c5be6eed0ef16b54",
+      "bytes": 467306
+    },
+    {
+      "file": "1266f863.Virtual_Worm_February_2012.utf8",
+      "sha256": "7bc000f5e6ee0ab683247a276538a9ee982197196a6d37e59d38751b20e5686a",
+      "bytes": 3733599
+    },
+    {
+      "file": "d53efa90.Virtual_Worm_February_2012.utf8",
+      "sha256": "c4daf7388b35ef0db35a23439685adcac2e2cc860ce671d24f7a84e859a5d636",
+      "bytes": 542145
+    },
+    {
+      "file": "3fc12c12.Virtual_Worm_February_2012.utf8",
+      "sha256": "9c00818a4573e338c62b1373a54eef3957087f274c6d9e83b412a9e3eb295c41",
+      "bytes": 440512
+    },
+    {
+      "file": "fd752c87.Virtual_Worm_February_2012.utf8",
+      "sha256": "7c9441e75510f211ac87965594ed99bc57f4d00f8dadeec4bdf4d8226b20099b",
+      "bytes": 189831
+    },
+    {
+      "file": "4940a7a2.Virtual_Worm_February_2012.utf8",
+      "sha256": "e22ae25973bf5ab94aab40f1e18c41986d5833f6831942750eba54034a149678",
+      "bytes": 239212
+    },
+    {
+      "file": "dd73fee7.Virtual_Worm_February_2012.utf8",
+      "sha256": "8f9c7be67b5c2c75228055bc19ceb21b1c783e9470630c7f3ed5d968d1b5b2b7",
+      "bytes": 389707
+    },
+    {
+      "file": "fd4525b1.Virtual_Worm_February_2012.utf8",
+      "sha256": "8c4de99bf4894dfd3ba82a19b3a01b4cfc5b1d5a3739db8dadc9be272c1dd774",
+      "bytes": 69272
+    },
+    {
+      "file": "def30c6c.Virtual_Worm_February_2012.utf8",
+      "sha256": "e37ac184579edbd37f24230b8445095193f44092515b58560c084014dbe42bed",
+      "bytes": 184535
+    },
+    {
+      "file": "b8859a42.Virtual_Worm_February_2012.utf8",
+      "sha256": "6cb4433204f108b505623af0ac66a691234dc9064b433027f928d97bfcc7335c",
+      "bytes": 5626595
+    },
+    {
+      "file": "f9a38374.Virtual_Worm_February_2012.utf8",
+      "sha256": "e295c655c767a13fa2fb7d07de73f2b4a5038a7f7cab7f0d2e9b31ed2901081f",
+      "bytes": 340504
+    },
+    {
+      "file": "b8d90ec1.Virtual_Worm_February_2012.utf8",
+      "sha256": "3ef2d04c0aed5d07723a0c681d45c38c87931bbf64059947fcb6bee25298fc21",
+      "bytes": 286616
+    },
+    {
+      "file": "da54c9e0.Virtual_Worm_February_2012.utf8",
+      "sha256": "041c87a430b1962aa1935788004357a6e02a0be5b05b69ad082fb43b927b2e08",
+      "bytes": 18515
+    },
+    {
+      "file": "e6aa14af.Virtual_Worm_February_2012.utf8",
+      "sha256": "89f32299cfe139e5b7dc78328c7f608f545a076314fe2a219ea029b0bcc1d71e",
+      "bytes": 897257
+    },
+    {
+      "file": "65fda73e.Virtual_Worm_February_2012.utf8",
+      "sha256": "34fb87cb77f33bfba421a089df69ee45d50bb61b21afdef6f6aefe657945c7ae",
+      "bytes": 53540
+    },
+    {
+      "file": "53f3b3bd.Virtual_Worm_February_2012.utf8",
+      "sha256": "c6dcd247a93996266cc6d7957cc73d098d559a49056fa0010de661aa116e9ce9",
+      "bytes": 105121
+    },
+    {
+      "file": "00c50ff0.Virtual_Worm_February_2012.utf8",
+      "sha256": "b1f13eecec4a79ba6a41b402cbf23015419b9e8c5e775957cc637ba5195822fa",
+      "bytes": 136704
+    },
+    {
+      "file": "527bd07e.Virtual_Worm_February_2012.utf8",
+      "sha256": "b9407793aeb504f0b1f3d2dce4f8fef4983bfbb7013fb018721e8878091beeac",
+      "bytes": 155830
+    },
+    {
+      "file": "bf699c9b.Virtual_Worm_February_2012.utf8",
+      "sha256": "69a810ac2a2b526eff3732614e3387bde507e8752262849b9347da974be90f05",
+      "bytes": 314150
+    },
+    {
+      "file": "cd53909a.Virtual_Worm_February_2012.utf8",
+      "sha256": "a13373c5aeaca28a5eb249d13a1bf219a62ddb248a280a625db08aec8aabc33c",
+      "bytes": 185517
+    },
+    {
+      "file": "57c495b3.Virtual_Worm_February_2012.utf8",
+      "sha256": "dc0c006616b16dc15a4b1cc0ef10267a3533212433c6648023e6914ebae33186",
+      "bytes": 79465
+    },
+    {
+      "file": "8e763d75.Virtual_Worm_February_2012.utf8",
+      "sha256": "b057f006d6149b2de577c598133560940b1cfce5c1117dff04835f7b4bec8e42",
+      "bytes": 38963
+    },
+    {
+      "file": "Virtual_Worm_February_2012.js",
+      "sha256": "656767dc729185ed8ac4f321a6305d2c3cbafedd5fc8f0a09a2b3fa32392546f"
+    },
+    {
+      "file": "legacy-loader.js",
+      "sha256": "71b2e191d83540b1e7c57e43ba550467033abb262a0fade0ebb8faedd4ca8821"
+    },
+    {
+      "file": "LICENSE",
+      "sha256": "c826a6c7ca9dedc9f8ae5197070197402073944353241b0009d277fa5f2053ae"
+    }
+  ]
+}
