@@ -4,23 +4,26 @@ import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls.js';
 import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader.js';
 import {DRACOLoader} from 'three/examples/jsm/loaders/DRACOLoader.js';
 import {alignStructures} from './layout';
+import {setPanMode} from './camera';
 import type {NeuralDataset} from './NeuralAtlas';
 
-interface State {ids:string[];aligned:boolean;reset:number}
-export default function NeuralScene({dataset,ids,aligned,reset}:{dataset:NeuralDataset}&State){
-  const host=useRef<HTMLDivElement>(null),update=useRef<()=>void>(()=>{}),latest=useRef<State>({ids,aligned,reset});
-  latest.current={ids,aligned,reset};
+interface State {ids:string[];aligned:boolean;reset:number;pan:boolean}
+export default function NeuralScene({dataset,ids,aligned,reset,pan}:{dataset:NeuralDataset}&State){
+  const host=useRef<HTMLDivElement>(null),update=useRef<()=>void>(()=>{}),latest=useRef<State>({ids,aligned,reset,pan});
+  const cameraControls=useRef<OrbitControls|null>(null);
+  latest.current={ids,aligned,reset,pan};
   const [status,setStatus]=useState('Loading selected meshes…'),[error,setError]=useState('');
   useEffect(()=>{
     const el=host.current!;let disposed=false,frame=0,generation=0,controller=new AbortController();
     let renderer:T.WebGLRenderer;
     try{renderer=new T.WebGLRenderer({antialias:true,alpha:true});}catch{setError('WebGL is unavailable. Source downloads remain accessible.');return;}
     renderer.setPixelRatio(Math.min(devicePixelRatio,1.65));renderer.outputColorSpace=T.SRGBColorSpace;
-    renderer.domElement.setAttribute('role','img');renderer.domElement.setAttribute('aria-label','3D neural EM source meshes. Select objects using the checkboxes.');el.appendChild(renderer.domElement);
+    renderer.domElement.setAttribute('role','img');renderer.domElement.setAttribute('aria-label','3D neural EM source meshes. Enable Pan to drag without rotating; otherwise drag to rotate or Shift-drag to pan. Scroll or pinch to zoom. Select objects using the checkboxes.');el.appendChild(renderer.domElement);
     const scene=new T.Scene(),camera=new T.PerspectiveCamera(35,1,.0001,1000),root=new T.Group();
     // One shared unit conversion for rendering only; never rescale individual meshes.
     const scale=1e-5;root.scale.setScalar(scale);scene.add(root);
     const controls=new OrbitControls(camera,renderer.domElement);controls.minDistance=.001;controls.maxDistance=500;
+    cameraControls.current=controls;
     scene.add(new T.HemisphereLight(0xffffff,0x53738b,2));const light=new T.DirectionalLight(0xffffff,2.5);light.position.set(3,5,6);scene.add(light);
     const draco=new DRACOLoader();draco.setDecoderPath('./draco/');draco.setWorkerLimit(2);const loader=new GLTFLoader().setDRACOLoader(draco);
     const meshes=new Map<string,T.Group>(),sourceBoxes=new Map<string,T.Box3>();
@@ -32,7 +35,7 @@ export default function NeuralScene({dataset,ids,aligned,reset}:{dataset:NeuralD
       const all=[...sourceBoxes.values()];const box=all.reduce((b,x)=>b.union(x),new T.Box3());const gap=box.isEmpty()?.01:Math.max(box.getSize(new T.Vector3()).length()*.035,.01);
       const positions=alignStructures([...sourceBoxes].map(([id,b])=>({id,min:b.min.toArray(),max:b.max.toArray()})),camera.aspect,gap);
       for(const [id,object] of meshes){object.position.set(0,0,0);if(latest.current.aligned)object.position.fromArray(positions.get(id)!.offset).divideScalar(scale);}
-      root.updateMatrixWorld(true);controls.enableRotate=!latest.current.aligned;fit();
+      root.updateMatrixWorld(true);setPanMode(controls,latest.current.pan||latest.current.aligned);fit();
     };
     const resize=()=>{const w=el.clientWidth,h=el.clientHeight;if(!w||!h)return;renderer.setSize(w,h);camera.aspect=w/h;camera.updateProjectionMatrix();arrange();};
     const observer=new ResizeObserver(resize);observer.observe(el);controls.addEventListener('change',render);resize();
@@ -64,8 +67,9 @@ export default function NeuralScene({dataset,ids,aligned,reset}:{dataset:NeuralD
     };
     lastIds='__initial__';update.current=sync;sync();
     const lost=(e:Event)=>{e.preventDefault();setError('The graphics context was lost. Reload to restore the neural view.');};renderer.domElement.addEventListener('webglcontextlost',lost);
-    return()=>{disposed=true;++generation;controller.abort();cancelAnimationFrame(frame);observer.disconnect();controls.dispose();draco.dispose();for(const o of meshes.values())dispose(o);renderer.domElement.removeEventListener('webglcontextlost',lost);renderer.dispose();el.replaceChildren();update.current=()=>{};};
+    return()=>{disposed=true;++generation;controller.abort();cancelAnimationFrame(frame);observer.disconnect();controls.dispose();cameraControls.current=null;draco.dispose();for(const o of meshes.values())dispose(o);renderer.domElement.removeEventListener('webglcontextlost',lost);renderer.dispose();el.replaceChildren();update.current=()=>{};};
   },[dataset]);
   useEffect(()=>update.current(),[ids,aligned,reset]);
+  useEffect(()=>{if(cameraControls.current)setPanMode(cameraControls.current,pan||aligned);},[pan,aligned]);
   return <><div className="scene" ref={host}/>{status&&<div className="neural-status" role="status">{status}</div>}{error&&<div className="loading error" role="alert"><strong>Mesh could not be loaded</strong><p>{error}</p><button onClick={()=>window.location.reload()}>Reload</button></div>}</>;
 }

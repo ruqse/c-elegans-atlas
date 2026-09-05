@@ -18,4 +18,4 @@ export const DEFAULT_LAYERS:LayerState={muscular:.26,nervous:1,reproductive:1,di
 export function partOpacity(p:Part,layers:LayerState){return Math.max(...p.systems.map(s=>layers[s]));}
 export function matchesPart(p:Part,query:string){const haystack=[p.name,p.sourceName,p.group,...p.systems.map(s=>SYSTEMS.find(x=>x.id===s)!.name)].join(' ').toLowerCase().replaceAll('_',' ');return query.toLowerCase().replaceAll('_',' ').trim().split(/\s+/).every(term=>haystack.includes(term));}
 export function sourceLink(atlas:Atlas,p:Part){return atlas.sourceUrl+'Virtual_Worm_February_2012.js';}
-export interface SceneState {layers:LayerState;selected:string|null;isolate:boolean;focus:number;reset:number;view:'oblique'|'side'|'opposite';layout:'assembled'|'systems'|'structures'|'selection';separation:number;compare:string[];cut:number}
+export interface SceneState {pan:boolean;layers:LayerState;selected:string|null;isolate:boolean;focus:number;reset:number;view:'oblique'|'side'|'opposite';layout:'assembled'|'systems'|'structures'|'selection';separation:number;compare:string[];cut:number}

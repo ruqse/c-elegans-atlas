@@ -2,9 +2,11 @@
 
 Interactive 3D anatomy explorer for the Virtual Worm adult hermaphrodite reference reconstruction.
 
-Rotate and zoom, search named source structures, toggle eight display layers, adjust opacity, select/focus/isolate objects, separate systems for inspection, and clip the view. The evidence panel links each selected object to its source and describes known limitations.
+Rotate, pan and zoom, search named source structures, toggle eight display layers, adjust opacity, select/focus/isolate objects, separate systems for inspection, and clip the view. The evidence panel links each selected object to its source and describes known limitations.
 
 **This is not certified as 100% biologically accurate or complete.** All geometry in the pinned browser export is preserved; the known missing AIZR object and source reconstruction limits are disclosed. See [accuracy notes](public/atlas/accuracy-notes.md).
+
+**Move without rotating:** enable **Pan** in either viewer, then drag with the left mouse button or one finger. Turn **Pan** off to rotate again. You can also Shift-drag or right-drag to pan while rotation is enabled. Scroll or pinch to zoom.
 
 ## Open the ready-built atlas
 

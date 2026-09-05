@@ -3,6 +3,7 @@ import * as T from 'three';
 import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls.js';
 import {SYSTEMS,partOpacity,type Atlas,type SceneState,type Part} from './atlas';
 import {alignStructures,explosionOffset} from './layout';
+import {setPanMode} from './camera';
 
 interface Props {atlas:Atlas;state:SceneState;onSelect:(id:string)=>void;onReady:()=>void;onError:(message:string)=>void}
 export default function Scene({atlas,state,onSelect,onReady,onError}:Props){
@@ -14,7 +15,7 @@ export default function Scene({atlas,state,onSelect,onReady,onError}:Props){
     const abort=new AbortController();
     try{renderer=new T.WebGLRenderer({antialias:true,alpha:true});}catch{onError('3D rendering is unavailable. Enable WebGL or use a browser with graphics acceleration. The searchable source inventory remains available.');return;}
     renderer.setPixelRatio(Math.min(window.devicePixelRatio,1.65));renderer.outputColorSpace=T.SRGBColorSpace;renderer.localClippingEnabled=true;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1.05;
-    renderer.domElement.setAttribute('aria-label','Interactive 3D worm. Drag to rotate, scroll to zoom. Use the structure list for keyboard selection.');
+    renderer.domElement.setAttribute('aria-label','Interactive 3D worm. Enable Pan to drag without rotating; otherwise drag to rotate or Shift-drag to pan. Scroll or pinch to zoom. Use the structure list for keyboard selection.');
     renderer.domElement.setAttribute('role','img');el.appendChild(renderer.domElement);
     const scene=new T.Scene(),camera=new T.PerspectiveCamera(32,1,.001,100);
     const controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=false;controls.minDistance=.025;controls.maxDistance=200;controls.zoomSpeed=.8;
@@ -79,9 +80,7 @@ export default function Scene({atlas,state,onSelect,onReady,onError}:Props){
       group.updateMatrixWorld(true);
       atlas.parts.forEach((p,i)=>{const mesh=meshes.get(p.id)!;const point=new T.Vector3();if(mesh.visible)mesh.geometry.boundingBox!.getCenter(point).applyMatrix4(mesh.matrixWorld);else point.set(10000,10000,10000);markerPositions.set(point.toArray(),i*3);});
       markerGeometry.attributes.position.needsUpdate=true;markers.visible=amount>.8&&!s.isolate;markerMaterial.opacity=Math.max(0,(amount-.8)/.2)*.55;
-      controls.enableRotate=amount<=.8;
-      controls.mouseButtons.LEFT=amount>.8?T.MOUSE.PAN:T.MOUSE.ROTATE;
-      controls.touches.ONE=amount>.8?T.TOUCH.PAN:T.TOUCH.ROTATE;
+      setPanMode(controls,s.pan||amount>.8);
     };
     const fitCurrent=(s:SceneState)=>{
       // Blend viewing direction too, so the final alignment never snaps into place.
