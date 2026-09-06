@@ -1,5 +1,7 @@
 # C. elegans Atlas
 
+[Explore the live atlas](https://c-elegans-atlas.vercel.app/)
+
 Interactive 3D explorer with a **Whole body** view of the Virtual Worm February 2012 adult hermaphrodite reconstruction and a separate **Neural EM** view of archived NeuroSC meshes. The source descriptions and study attribution are recorded in the [whole-body provenance notes](public/atlas/accuracy-notes.md) and [neural source notes](public/neurosc/README.md).
 
 Search source objects, control their visibility, rotate, pan, zoom, and compare display arrangements. **Light mode is the default** when no theme preference is saved; the sun/moon button switches themes and remembers the choice when browser storage is available.
