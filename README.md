@@ -1,4 +1,4 @@
-# C. elegans Atlas
+# *C. elegans* Atlas
 
 [Explore the live atlas](https://c-elegans-atlas.vercel.app/)
 
